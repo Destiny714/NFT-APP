@@ -10,8 +10,8 @@ void initOSS(){
     bucket: _bucket,
     credentials: () async {
       return Credentials(
-        accessKeyId: 'LTAI5tDidmaGcgSkc8wjkC9P',
-        accessKeySecret: 'cGRwYZhxE1uhjTb0po0uTcg6g1Mzgt',
+        accessKeyId: '',
+        accessKeySecret: '',
       );
     },
   );
