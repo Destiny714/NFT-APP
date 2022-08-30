@@ -51,8 +51,8 @@ android {
         manifestPlaceholders = [
                 JSHARE_PKGNAME : "com.geekshop.nft",
                 JPUSH_PKGNAME : "com.geekshop.nft",
-                JPUSH_APPKEY : "8cd63f0981ccbcae5a054e0a", // NOTE: JPush 上注册的包名对应的 Appkey.
-                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+                JPUSH_APPKEY : keystoreProperties['JPUSHKey'], //JPush AppKey.
+                JPUSH_CHANNEL : "developer-default",
         ]
         minSdkVersion 19
         targetSdkVersion flutter.targetSdkVersion
